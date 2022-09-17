@@ -7,25 +7,83 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  box-sizing: border-box;
 }
 
 .header {
-  height: 100vh;
+  position: relative;
+  display: flex;
+  min-height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  width: 100%;
+  background-color: #f2f2f2;
+  margin-bottom: 100px;
   /* выше установили ограничения для секции */
+}
+
+.logo__place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.header__title {
+  position: absolute;
+  align-self: center;
+  width: 730px;
+  margin-left: 64px;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.header__subtitle {
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  width: 388px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  z-index: 2;
+}
+.header__link {
+  list-style: none;
+  color: #2f80ed;
+}
+
+.header__main-illusrtation {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 608px;
+  width: 765px;
+  z-index: 1;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
+  position: absolute;
+  top: 64px;
+  right: 0;
+  background-color: #2f80ed;
   height: 568px;
   width: 568px;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
+.description {
+  margin: auto;
 }
+
+.two-columns {
+  width: 80%;
+  min-width: 784px;
+
+  padding: 100px auto 100px auto;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+
