@@ -13,11 +13,12 @@
 .header {
   position: relative;
   display: flex;
-  min-height: 100vh;
+  height: 100vh;
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
-  margin-bottom: 100px;
+  margin: 0 0 100px 0;
+  overflow: hidden;
   /* выше установили ограничения для секции */
 }
 
@@ -36,7 +37,7 @@
   position: absolute;
   align-self: center;
   width: 730px;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   font-size: 102px;
   line-height: 96px;
   font-weight: 600;
@@ -48,6 +49,7 @@
   left: 64px;
   bottom: 30px;
   width: 388px;
+  margin: 0;
   font-size: 18px;
   line-height: 25px;
   font-weight: 400;
@@ -80,6 +82,7 @@
 }
 
 .description {
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
