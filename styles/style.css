@@ -149,7 +149,7 @@
   align-items: center;
 }
 
-.section__title {
+.section-title {
   width: 60%;
   text-align: center;
   margin: auto auto 20px auto;
@@ -159,7 +159,7 @@
   font-weight: 600;
 }
 
-.section__subtitle {
+.section-subtitle {
   max-width: 60%;
   text-align: center;
   margin: auto;
@@ -274,12 +274,12 @@
   overflow: hidden;
 }
 
-.section__title_dark_theme {
+.section-title_dark_theme {
   z-index: 2;
   color: white;
 }
 
-.section__subtitle_dark_theme {
+.section-subtitle_dark_theme {
   z-index: 2;
   color: white;
 }
@@ -371,7 +371,7 @@
 }
 
 .footer__column-links {
-  margin: 0;
+  margin: 0 0 16px 0;
   padding: 0;
   list-style: none;
   font-size: 18px;
