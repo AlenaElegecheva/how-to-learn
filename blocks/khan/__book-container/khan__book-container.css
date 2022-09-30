@@ -3,4 +3,6 @@
   padding: 0;
   display: flex;
   gap: 48px;
+  overflow: hidden;
+
 }
